@@ -23,7 +23,5 @@ class Bot(Client):
             plugins={"root": "plugins"},
             sleep_threshold=10,
         )
-
-
 app = Bot.run()
 app = Run.run()
