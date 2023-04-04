@@ -8,4 +8,4 @@ This bot automatically add caption and button to any media/document sent to a ch
 
 
 ### Devs: 
-- [@samadii](https://github.com/anisagar123)
+- [@Kushalhk](https://github.com/anisagar123)
