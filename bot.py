@@ -16,9 +16,9 @@ class autocaption(Client):
     def __init__(self):
         super().__init__(
             session_name="Captioner",
-            bot_token = Config.BOT_TOKEN,
-            api_id = Config.API_ID,
-            api_hash = Config.API_HASH,
+            bot_token =BOT_TOKEN,
+            api_id =API_ID,
+            api_hash =API_HASH,
             workers = 20,
             plugins = dict(
                 root="plugins"
@@ -26,4 +26,4 @@ class autocaption(Client):
         )
 
 if __name__ == "__main__" :
-    autocaption().run()
+    app = Bot.run()
