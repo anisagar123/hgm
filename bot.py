@@ -24,5 +24,6 @@ class Bot(Client):
             sleep_threshold=10,
         )
 
-if __name__ == "__main__" :
-    app = Bot.run()
+
+app = Bot()
+app.run()
