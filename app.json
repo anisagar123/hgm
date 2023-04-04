@@ -1,7 +1,7 @@
 {
   "name": "ChannelAutoCaption",
   "description": "Telegram auto channel caption bot.",
-  "repository": "https://github.com/samadii/ChannelAutoCaption",
+  "repository": "https://github.com/anisagar123/hgm",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
