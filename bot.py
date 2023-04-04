@@ -11,18 +11,17 @@ from config import Config
 from pyrogram import Client 
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-class autocaption(Client):
-    
+class Bot(Client):
+
     def __init__(self):
         super().__init__(
-            session_name="Captioner",
-            bot_token =BOT_TOKEN,
-            api_id =API_ID,
-            api_hash =API_HASH,
-            workers = 20,
-            plugins = dict(
-                root="plugins"
-            )
+            name=SESSION,
+            api_id=API_ID,
+            api_hash=API_HASH,
+            bot_token=BOT_TOKEN,
+            workers=300,
+            plugins={"root": "plugins"},
+            sleep_threshold=10,
         )
 
 if __name__ == "__main__" :
